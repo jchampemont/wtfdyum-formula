@@ -1,0 +1,2 @@
+{% import_yaml 'wtfdyum/defaults.yaml' as default_settings %}
+{% set wtfdyum = salt['pillar.get']('wtfdyum', default=default_settings.get('wtfdyum'), merge=True) %}

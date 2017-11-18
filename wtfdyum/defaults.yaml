@@ -1,0 +1,7 @@
+wtfdyum:
+  user: deploy
+  path: /apps/wtfdyum
+  version: 1.1.0-SNAPSHOT
+  url: https://exemple.com
+  appId: app-id
+  appSecret: secret
