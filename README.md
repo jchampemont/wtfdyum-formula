@@ -1,4 +1,4 @@
-# seafile-formula
+# wtfdyum-formula
 Formula for WTFDYUM: Why the f*** did you unfollow me? (https://github.com/jchampemont/WTFDYUM).
 
 See the full [Salt Formulas installation and usage instructions](http://docs.saltstack.com/en/latest/topics/development/conventions/formulas.html).
