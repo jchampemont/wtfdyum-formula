@@ -26,6 +26,9 @@ wtfdyum.dependencies:
     - source: {{ wtfdyum.path }}/wtfdyum-{{ wtfdyum.version }}.zip
     - user: {{ wtfdyum.user }}
     - group: {{ wtfdyum.user }}
+    - overwrite: True
+    - watch:
+      - file: {{ wtfdyum.path }}/wtfdyum-{{ wtfdyum.version }}.zip
 
 {{ wtfdyum.path }}/wtfdyum-{{ wtfdyum.version }}/startup.sh:
   file.managed:
