@@ -6,3 +6,4 @@ wtfdyum:
   appId: app-id
   appSecret: secret
   trackingCode: ""
+  adminId: ""
