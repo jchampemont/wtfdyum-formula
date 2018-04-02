@@ -52,6 +52,7 @@ wtfdyum.dependencies:
 
   supervisord.running:
     - name: wtfdyum
+    - restart: True
     - update: True
     - user: root
     - watch:
