@@ -56,3 +56,6 @@ wtfdyum.dependencies:
     - user: root
     - watch:
       - file: /etc/supervisor/conf.d/wtfdyum.conf
+      - file: {{ wtfdyum.path }}/wtfdyum-{{ wtfdyum.version }}.zip
+      - archive: {{ wtfdyum.path }}/wtfdyum-{{ wtfdyum.version }}.zip
+      - file: {{ wtfdyum.path }}/wtfdyum-{{ wtfdyum.version }}/startup.sh
