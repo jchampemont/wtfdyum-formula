@@ -5,3 +5,4 @@ wtfdyum:
   url: https://exemple.com
   appId: app-id
   appSecret: secret
+  trackingCode: ""
